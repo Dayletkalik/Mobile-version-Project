@@ -1,0 +1,282 @@
+body {
+    background-color: #f1f1f1 !important;
+    margin: 0;
+    padding: 0;
+  }
+
+  .tap {
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-family: "Kanit";
+    font-style: normal;
+    font-weight: 500;
+    color: #000000;
+  }
+
+  .nav-link {
+    --bs-nav-link-color: var(--bs-nav-link-color);
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500 !important;
+    color: #081e34;
+  }
+
+  .btn-getStarted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 108px;
+    height: 38px;
+    background: rgba(8, 30, 52, 0.12);
+    border-radius: 100px;
+    border: 0;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #081e34;
+  }
+
+  .gh {
+    font-family: "Kanit";
+    font-style: normal;
+    font-weight: 700; 
+    font-size: 54px;
+  }
+
+  .gh-24 {
+    font-family: "Kanit";
+    font-style: normal;
+    font-weight: 700; 
+    font-size: 24px;
+  }
+
+  .gh-tool {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .lr-ips {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .logo img {
+    margin-right: 10%;
+    width: 18.68px!important;
+    height: 22px;
+  }
+
+  .get-hired {
+    text-align: center;
+  }
+
+  .container img {
+    width: 90%;
+  }
+
+  .button-howItWorks {
+    width: 150px;
+    background: #712fff;
+    border-radius: 100px;
+    align-items: center;
+    padding: 3%;
+    border: 0;
+  }
+
+  .bg-body-secondary {
+    border-radius: 32px 32px 32px 32px;
+  }
+
+  .lor-ips {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: auto;
+  }
+
+  .first img {
+    width: 35.13px;
+    height: 64px;
+  }
+
+  .second img {
+    width: 48.3px;
+    height: 64px;
+  }
+  .third img {
+    width: 48.57px;
+    height: 64px;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .form {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #e1dee7;
+    border-radius: 12px;
+  }
+
+  .form-search {
+    margin-left: 3%;
+    width: 24px!important;
+    height: 24px!important;
+    align-items: center;
+  }
+
+  .search-field {
+    display: flex;
+    flex-direction: row;
+    max-height: 50%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  input[type="search"] {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    max-height: 80%;
+    border: 1px solid transparent;
+    border-radius: inherit;
+  }
+
+  input[type="search"]::placeholder {
+    color: #bbb;
+  }
+
+  button[type="submit"] {
+    width: 123px;
+    background: #712fff;
+    border-radius: 100px;
+    align-items: center;
+    border: 0;
+  }
+
+  .button-findJob-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    margin: auto;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+  }
+
+  .vis-cont-2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .vis-cont-img {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .social {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .social a {
+    width: 20px;
+  }
+
+  .social img {
+    width: 100%;
+  }
+
+  .button-upload {
+    background: #712fff;
+    border-radius: 100px;
+  }
+
+  .button-upload-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+    color: #ffffff;
+  }
+
+  footer {
+    border-radius: 32px 32px 0 0;
+    background-color: #ffffff;
+  }
+
+  .navi {
+    list-style: none;
+    font-size: 14px;
+  }
+
+  .logo-inst, .logo-twit {
+    height: 24px;
+    width: 24px!important;
+  }
+
+  .logo-twit {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo-inst {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .foo-text {
+    opacity: 50%;
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: 500;
+  }
+  
+  @media screen and (max-width: 992px){
+    .gh {
+      font-size: 32px;
+    }
+    .gh-tool {
+      font-size: 14px;
+    }
+    .gh-24 {
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 360px){
+    .first img {
+      width: 23.05px;
+      height: 42px;
+    }
+
+    .second img {
+      width: 31.7px;
+      height: 42px;
+    }
+    
+    .third img {
+      width: 31.87px;
+      height: 42px;
+    }
+  }
